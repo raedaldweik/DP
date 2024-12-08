@@ -1,0 +1,58 @@
+Text 1 (5)
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+
+Key value - عدد البلاغات 4
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+
+Text 1 (3) (2)
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+
+Forecasting - تاريخ البلاغ 3
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+    * This object type requires an advanced query.
+
+Gauge - فارق الوقت 3
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+
+Data-driven content - حالة البلاغ 1
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+    * This object type requires an advanced query.
+
+Data-driven content - سرعة التبليغ 1
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+    * This object type requires an advanced query.
+
+Data-driven content - التصنيف 1
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+    * This object type requires an advanced query.
+
+Data-driven content - تاريخ البلاغ 1
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.
+    * This object type requires an advanced query.

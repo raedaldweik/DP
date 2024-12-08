@@ -1,0 +1,186 @@
+#ve2782 .Container {
+  background-color : #161616;
+  transparency : 0;
+}
+#ve2773 .ButtonBar {
+  selected-background-color : #B0B7C2;
+}
+#ve2795 .paragraph1 {
+  text-align : right;
+}
+#ve2933 .ReportElementContainer {
+  padding : 0px;
+}
+#ve3003 .TipText {
+  text-color : #FFFFFF;
+}
+#ve2767 .ComboBox {
+  color : #000000;
+}
+#ve2986 .TipText {
+  text-color : #ffffff;
+}
+#ve3042 .ReportElementContainer {
+  padding : 0px;
+}
+#ve3797 .ReportElementContainer {
+  padding : 0px;
+}
+#ve2913 .ReportElementContainer {
+  padding : 5px;
+}
+.GraphDataStyleDefault {
+  marker-color : #00B5B9;
+  text-color : #00B5B9;
+  fill-color : #7DC3FC;
+  line-color : #00B5B9;
+}
+#ve2949 .paragraph1 {
+  text-align : right;
+}
+#ve35233 .ReportElementContainer {
+  padding : 0px;
+}
+#ve2795 .ReportElementContainer {
+  padding : 16px;
+}
+#ve35233 .Container {
+  background-color : #1C1C1C;
+  transparency : 0.29;
+}
+#ve2854 .Container {
+  background-color : #2B2B2B;
+  transparency : 0.15;
+}
+#ve2782 .ReportElementContainer {
+  padding : 0px;
+}
+#ve2854 .ReportElementContainer {
+  padding : 0px;
+}
+#ve2795 .span1 {
+  color : #FFFFFF;
+  font-size : 18pt;
+}
+#ve2795 .span2 {
+  font-weight : bold;
+}
+#vi35235 .ReportPagePadding {
+  padding : 0px;
+}
+#ve2913 .TipText {
+  text-color : #17785F;
+}
+#ve3040 .ReportElementContainer {
+  padding : 15px;
+}
+#ve2986 .styleForTitle_span13 {
+  color : #FFFFFF;
+  font-weight : bold;
+  font-size : 14pt;
+}
+#ve2759 .ReportElementContainer {
+  padding : 0px;
+}
+#ve3038 .Container {
+  background-color : #2B2B2B;
+  transparency : 0.13;
+}
+#ve3040 .Container {
+  background-color : #000000;
+  transparency : 0.4;
+}
+#ve35231 .ReportElementContainer {
+  padding : 15px;
+}
+#ve3003 .styleForTitle_span10 {
+  color : #FFFFFF;
+  font-weight : bold;
+  font-size : 14pt;
+}
+#ve35231 .Container {
+  background-color : #000000;
+  transparency : 0.4;
+}
+.GraphDataStyle1 {
+  marker-color : #00B5B9;
+  text-color : #00B5B9;
+  fill-color : #7DC3FC;
+  line-color : #00B5B9;
+}
+#ve35064 .Container {
+  background-color : #2B2B2B;
+  transparency : 0.15;
+}
+#ve2986 .ReportElementContainer {
+  padding : 10px;
+}
+#ve2986 .styleForTitle_paragraph17 {
+  text-align : right;
+}
+#ve2949 .span1 {
+  color : #FFFFFF;
+  font-size : 16pt;
+}
+#ve3003 .styleForTitle_paragraph14 {
+  text-align : center;
+}
+#ve2986 .GridLines {
+  line-color : #ffffff;
+}
+#ve2949 .span2 {
+  font-weight : bold;
+}
+#ve35064 .ReportElementContainer {
+  padding : 0px;
+}
+#ve2949 .Container {
+  background-color : #000000;
+  transparency : 0.61;
+  border-width : 0px;
+  border-color : #FFFFFF;
+}
+#ve2931 .Container {
+  background-color : #2B2B2B;
+  transparency : 0.14;
+}
+#ve3042 .Container {
+  background-color : #1C1C1C;
+  transparency : 0.29;
+}
+#ve2986 .GraphSkin {
+  data-skin : matte;
+}
+#ve14790 .ReportElementContainer {
+  padding : 0px;
+}
+#ve9552 .ReportElementContainer {
+  padding : 0px;
+}
+#ve11635 .ReportElementContainer {
+  padding : 0px;
+}
+#ve2780 .Slider {
+  color : #FFFFFF;
+}
+#ve12174 .ReportElementContainer {
+  padding : 0px;
+}
+:root {
+  --custom-color-2 : var(--report-background-color);
+  --custom-color-3 : #FFFFFF;
+  --custom-color-1 : var(--report-data-color-3);
+}
+#ve2795 .Container {
+  background-color : #000000;
+  transparency : 0.62;
+  border-width : 0px;
+  border-color : #FFFFFF;
+}
+#vi3044 .ReportPagePadding {
+  padding : 0px;
+}
+#ve46232 .Table {
+  wrap-text : normal;
+  display-opts : retainnewline;
+}

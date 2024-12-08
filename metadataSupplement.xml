@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds270" resourceIdentifier="'cas-shared-default','CASUSER','CRIME_REPORTS_DATASET_FINAL','en_US'" tableModifiedTimeStamp="2024-12-07T15:00:40.437Z">
+            <columns>
+                <column dataType="string" label="report_id" xref="report_id"/>
+                <column dataType="string" label="report_datetime" xref="report_datetime"/>
+                <column dataType="string" label="reporting_station" xref="reporting_station"/>
+                <column dataType="string" label="classification" xref="classification"/>
+                <column dataType="double" format="BEST12." label="incident_lat" xref="incident_lat"/>
+                <column dataType="double" format="BEST12." label="incident_lang" xref="incident_lang"/>
+                <column dataType="string" label="incident_datetime" xref="incident_datetime"/>
+                <column dataType="string" label="charge_type" xref="charge_type"/>
+                <column dataType="string" label="accused_name" xref="accused_name"/>
+                <column dataType="string" label="accused_passport" xref="accused_passport"/>
+                <column dataType="string" label="accused_id" xref="accused_id"/>
+                <column dataType="double" format="BEST12." label="accused_age" xref="accused_age"/>
+                <column dataType="string" label="accused_marital_status" xref="accused_marital_status"/>
+                <column dataType="string" label="accused_nationality" xref="accused_nationality"/>
+                <column dataType="string" label="accused_status" xref="accused_status"/>
+                <column dataType="string" label="report_status" xref="report_status"/>
+                <column dataType="double" format="BEST12." label="accused_custody" xref="accused_custody"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>

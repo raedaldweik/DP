@@ -1,0 +1,2838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.45.0" label="Dubai Police Demo_Chatbot" features="promptModelV2" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en_US" createdVersion="4.42.0" dateCreated="2024-08-08T14:44:27Z" dateModified="2024-12-06T07:55:23Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="46273">
+	<Results>
+		<Result ref="dd2772" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Variables>
+				<StringVariable label="التصنيف" ref="bi2769" varname="bi2769" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi2769" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="2" contentKey="BMYJNKXHDN4LKE54E7NEDQGVFI6AOHV2" size="4" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[0
+1
+]]></Data>
+			<StringTable contentKey="7R5AGDYKJEJR43IQAGXBWKWF3CJ564KO" size="26" format="CSV" rowCount="2"><![CDATA["مجهول"
+"معلوم"
+]]></StringTable>
+		</Result>
+		<Result ref="dd2779" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Variables>
+				<NumericVariable format="DATE9" usage="quantitative" definedAggregation="min" label="تاريخ البلاغ" ref="bi2775" varname="bi2775" column="c0"/>
+				<NumericVariable format="DATE9" usage="quantitative" definedAggregation="max" label="تاريخ البلاغ" ref="bi2776" varname="bi2776" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="OBY7Y22THENRCLGPVPHDHQYLISS5NEW7" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23223.0,23596.0
+]]></Data>
+		</Result>
+		<Result ref="dd2766" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Variables>
+				<StringVariable label="مركز الشرطة" ref="bi2763" varname="bi2763" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="2" colname="c0" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi2763" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="11" contentKey="DOMU765UK5HFN3NCRWGZUBYMMESJ7MJE" size="23" format="CSV" rowCount="11" grandTotal="false" dataLayout="minimal"><![CDATA[0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+]]></Data>
+			<StringTable contentKey="4A4KOKMNGO7EN6EWGABKDGZZ7TE7UYJA" size="395" format="CSV" rowCount="11"><![CDATA["القيادة العامة لشرطة دبي"
+"مركز شرطة البرشاء"
+"مركز شرطة الخوانيج"
+"مركز شرطة الراشدية"
+"مركز شرطة الرفاعة"
+"مركز شرطة القصيص"
+"مركز شرطة المرقبات"
+"مركز شرطة بر دبي"
+"مركز شرطة جبل علي"
+"مركز شرطة ميناء دبي"
+"مركز شرطة نايف"
+]]></StringTable>
+		</Result>
+		<Result ref="dd14793" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Variables>
+				<StringVariable usage="rollup" label="مركز الشرطة" ref="bi14803" varname="ru0" column="c0"/>
+				<StringVariable label="مركز الشرطة" ref="bi14803" varname="bi14803" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="0" colname="c0" encoding="text"/>
+				<StringColumn maxLength="0" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="22" contentKey="ZZSEHNX2E7QUPVU5RVY65A7KTA2S7252" size="124" format="CSV" rowCount="22" grandTotal="false" dataLayout="rollup"><![CDATA[-100,0
+-100,1
+-100,2
+-100,3
+-100,4
+-100,5
+-100,6
+-100,7
+-100,8
+-100,9
+-100,10
+0,0
+1,1
+2,2
+3,3
+4,4
+5,5
+6,6
+7,7
+8,8
+9,9
+10,10
+]]></Data>
+			<StringTable contentKey="4A4KOKMNGO7EN6EWGABKDGZZ7TE7UYJA" size="395" format="CSV" rowCount="11"><![CDATA["القيادة العامة لشرطة دبي"
+"مركز شرطة البرشاء"
+"مركز شرطة الخوانيج"
+"مركز شرطة الراشدية"
+"مركز شرطة الرفاعة"
+"مركز شرطة القصيص"
+"مركز شرطة المرقبات"
+"مركز شرطة بر دبي"
+"مركز شرطة جبل علي"
+"مركز شرطة ميناء دبي"
+"مركز شرطة نايف"
+]]></StringTable>
+		</Result>
+		<Result ref="dd2784" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="max_reps" ref="bi2785" varname="bi2785" column="c0"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="percentage_station" ref="bi2786" varname="bi2786" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="NAFKXQXXE6VVG37WWTFFFUFC7MHHIFK3" size="11" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[316.0,31.6
+]]></Data>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd2902" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="عدد البلاغات" ref="bi2903" varname="bi2903" column="c0"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+			</Columns>
+			<DefinedColumnSortItems>
+				<DefinedMeasureSortItem variable="bi2903" sortDirection="descending"/>
+			</DefinedColumnSortItems>
+			<Data isIndexed="false" availableRowCount="1" contentKey="WEGTIP77LAAXLEJFPMWP3R7ZECOHVJI5" size="7" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[1000.0
+]]></Data>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd2935" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="max_time_diff" ref="bi2936" varname="bi2936" column="c0"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="min_time_diff" ref="bi2937" varname="bi2937" column="c1"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="avg_time_diff" ref="bi2938" varname="bi2938" column="c2"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="perc_abv_avg" ref="bi2939" varname="bi2939" column="c3"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" label="perc_below_avg" ref="bi2940" varname="bi2940" column="c4"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="CODVO6IMKQVJNTFSMNRBBQWA7NQLABKU" size="38" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[23.0,0.0,11.540682414698162,36.1,61.0
+]]></Data>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd2958" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="DATE9" usage="categorical" label="تاريخ البلاغ" ref="bi2972" varname="bi2972" column="c0"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency (Model)" ref="bi2951" varname="bi2951" column="c1"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Frequency (Actual)" ref="bi2956" varname="bi2956" column="c2"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Frequency" ref="bi2957" varname="bi2957" column="c3"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Lower Confidence Interval" ref="bi2954" varname="bi2954" column="c4"/>
+				<NumericVariable format="COMMA12." usage="quantitative" label="Upper Confidence Interval" ref="bi2953" varname="bi2953" column="c5"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="date" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="MPGH7PTUX6AGT2KWD64BIER6FUT5IIN4" size="16141" format="CSV" rowCount="404" grandTotal="false" dataLayout="minimal" file="dd2958.csv" isIndexed="false" availableRowCount="404"/>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd2971" type="relational" status="warning" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<StringVariable label="Dependent Variable" ref="bi2964" varname="bi2964" column="c0"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Status" ref="bi2966" varname="bi2966" column="c1"/>
+				<StringVariable label="Algorithm" ref="bi2963" varname="bi2963" column="c2"/>
+				<NumericVariable format="BEST." usage="quantitative" label="First Forecast Row" ref="bi2967" varname="bi2967" column="c3"/>
+				<NumericVariable format="DATE9" usage="quantitative" label="تاريخ البلاغ" ref="bi2968" varname="bi2968" column="c4"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Actual" ref="bi2969" varname="bi2969" column="c5"/>
+				<NumericVariable format="BEST." usage="quantitative" label="Model" ref="bi2970" varname="bi2970" column="c6"/>
+				<StringVariable label="Contributing Independent Data Source Names" ref="bi2965" varname="bi2965" column="c7"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="11" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<StringColumn maxLength="30" colname="c2" encoding="text"/>
+				<NumericColumn dataType="double" colname="c3" encoding="text"/>
+				<NumericColumn dataType="double" colname="c4" encoding="text"/>
+				<NumericColumn dataType="double" colname="c5" encoding="text"/>
+				<NumericColumn dataType="double" colname="c6" encoding="text"/>
+				<StringColumn maxLength="5" colname="c7" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="RWIUPWGI2VHNQKQ6BCOA2ROZKBWFTCII" size="87" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["Frequency",0,"Simple Exponential Smoothing",374,23597.0,11.0,3.0234750249322264,"[0]"
+]]></Data>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd2982" type="relational" status="warning" dataLevel="baseline" label="Forecast Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<StringVariable label="Forecast Summary" ref="bi2974" varname="bi2974" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="504" colname="c0" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="B66FAZ4WZJNAW647DQ72H7SHEIHLD2EH" size="505" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["Forecasting uses statistical trends in your data to predict future values. It automatically tests multiple forecasting models against the specified data items and then selects the best model for each one.
+
+Forecast: Frequency
+- By September 7, 2024 (30 time periods), Frequency is forecast to be 3 with a 95% confidence interval between -0.02 and 6. The forecast represents an approximate increase of 2 (197.32%) from the August 8, 2024 value of 1.
+- The selected model is Simple Exponential Smoothing."
+]]></Data>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd2961" type="relational" status="warning" dataLevel="baseline" label="&quot;What If&quot;" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<StringVariable label="Forecast What If" ref="bi2960" varname="bi2960" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="2" contentKey="P7LOFDL4XERC6XRSJL4CEKIVZWGTIWFR" size="4" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[1
+0
+]]></Data>
+			<StringTable contentKey="QIOCTS6WYM3ZKYLZFE2KCMAHMR74EMFU" size="609" format="CSV" rowCount="2"><![CDATA["Goal seeking determines the value of each underlying factor that is required to achieve a specified target response value. Change the future values of one or more forecasts to generate a new goal seeking scenario. This information window includes descriptive statistics when you apply a new goal seeking scenario."
+"Scenario analysis creates a forecast that is based on hypothetical future values for one or more underlying factors. Change the future values of one or more underlying factors to generate a new scenario. This information window includes descriptive statistics when you apply a new scenario."
+]]></StringTable>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd2988" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="average" label="فارق الوقت" ref="bi2989" varname="bi2989" column="c0"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="OKFLN5AI6H7DWBZJUTW7VMFB4TZGZMRQ" size="19" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[11.540682414698162
+]]></Data>
+			<Parameters>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd3800" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<StringVariable label="حالة البلاغ" ref="bi3810" varname="bi3810" column="c0"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency" ref="bi3811" varname="bi3811" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="3" contentKey="ZI6XXW5NKH74THMY4EMYSE7TJJOMDBES" size="25" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal"><![CDATA[-1,238.0
+0,476.0
+1,286.0
+]]></Data>
+			<StringTable contentKey="HZIASYHWBQUNZMQGKH6LJRNVUG3RY42G" size="37" format="CSV" rowCount="2"><![CDATA["قيد التحقيق"
+"مكتمل"
+]]></StringTable>
+			<Parameters>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd3801" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Data isIndexed="false" availableRowCount="3" contentKey="BVAXO2NUPPVA27H2VO54SKPQVVAMJKH2" size="1354" format="JSONX" rowCount="3" grandTotal="false" dataLayout="minimal"><![CDATA[{
+  "version" : "1",
+  "resultName" : "dd3801",
+  "rowCount" : 3,
+  "availableRowCount" : 3,
+  "data" : [ [ "(missing)", 238.0 ], [ "قيد التحقيق", 476.0 ], [ "مكتمل", 286.0 ] ],
+  "columns" : [ {
+    "name" : "bi3810",
+    "label" : "حالة البلاغ",
+    "type" : "string"
+  }, {
+    "name" : "bi3811",
+    "label" : "Frequency",
+    "type" : "number",
+    "usage" : "quantitative",
+    "aggregation" : "totalCount",
+    "format" : {
+      "name" : "COMMA",
+      "width" : 12,
+      "precision" : 0,
+      "formatString" : "COMMA12."
+    }
+  } ],
+  "parameters" : [ {
+    "name" : "pr1399",
+    "label" : "التصنيف Parameter",
+    "dataType" : "string",
+    "value" : ""
+  }, {
+    "name" : "pr1397",
+    "label" : "تاريخ البلاغ Parameter start",
+    "dataType" : "date",
+    "value" : "August 1, 2023",
+    "format" : {
+      "name" : "DATE",
+      "width" : 9,
+      "precision" : 0,
+      "formatString" : "DATE9"
+    }
+  }, {
+    "name" : "pr1853",
+    "label" : "تاريخ البلاغ Parameter end",
+    "dataType" : "date",
+    "value" : "August 8, 2024",
+    "format" : {
+      "name" : "DATE",
+      "width" : 9,
+      "precision" : 0,
+      "formatString" : "DATE9"
+    }
+  }, {
+    "name" : "pr1398",
+    "label" : "مركز الشرطة Parameter",
+    "dataType" : "string",
+    "value" : ""
+  } ]
+}]]></Data>
+		</Result>
+		<Result ref="dd9555" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<StringVariable label="سرعة التبليغ" ref="bi9568" varname="bi9568" column="c0"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="sum" label="count" ref="bi9569" varname="bi9569" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="2" contentKey="MKKZNZMEMLOAYES653SRHQLYFBIDJNHF" size="16" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[0,639.0
+1,361.0
+]]></Data>
+			<StringTable contentKey="MY2GLQPI4WUEL4IOO7DB757O56ZTHDUZ" size="48" format="CSV" rowCount="2"><![CDATA["تحت المتوسط"
+"فوق المتوسط"
+]]></StringTable>
+			<Parameters>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd9556" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Data isIndexed="false" availableRowCount="2" contentKey="KK5DT5KOUONRZZBJI6OLEKD35SXAXRAC" size="1333" format="JSONX" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[{
+  "version" : "1",
+  "resultName" : "dd9556",
+  "rowCount" : 2,
+  "availableRowCount" : 2,
+  "data" : [ [ "تحت المتوسط", 639.0 ], [ "فوق المتوسط", 361.0 ] ],
+  "columns" : [ {
+    "name" : "bi9568",
+    "label" : "سرعة التبليغ",
+    "type" : "string"
+  }, {
+    "name" : "bi9569",
+    "label" : "count",
+    "type" : "number",
+    "usage" : "quantitative",
+    "aggregation" : "sum",
+    "format" : {
+      "name" : "COMMA",
+      "width" : 12,
+      "precision" : 2,
+      "formatString" : "COMMA12.2"
+    }
+  } ],
+  "parameters" : [ {
+    "name" : "pr1399",
+    "label" : "التصنيف Parameter",
+    "dataType" : "string",
+    "value" : ""
+  }, {
+    "name" : "pr1397",
+    "label" : "تاريخ البلاغ Parameter start",
+    "dataType" : "date",
+    "value" : "August 1, 2023",
+    "format" : {
+      "name" : "DATE",
+      "width" : 9,
+      "precision" : 0,
+      "formatString" : "DATE9"
+    }
+  }, {
+    "name" : "pr1853",
+    "label" : "تاريخ البلاغ Parameter end",
+    "dataType" : "date",
+    "value" : "August 8, 2024",
+    "format" : {
+      "name" : "DATE",
+      "width" : 9,
+      "precision" : 0,
+      "formatString" : "DATE9"
+    }
+  }, {
+    "name" : "pr1398",
+    "label" : "مركز الشرطة Parameter",
+    "dataType" : "string",
+    "value" : ""
+  } ]
+}]]></Data>
+		</Result>
+		<Result ref="dd11638" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<StringVariable label="التصنيف" ref="bi11648" varname="bi11648" column="c0"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency" ref="bi11649" varname="bi11649" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="2" contentKey="U6IEOGAW2HSY2LKEXJYZN5MH2KLDJQLL" size="16" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[0,238.0
+1,762.0
+]]></Data>
+			<StringTable contentKey="7R5AGDYKJEJR43IQAGXBWKWF3CJ564KO" size="26" format="CSV" rowCount="2"><![CDATA["مجهول"
+"معلوم"
+]]></StringTable>
+			<Parameters>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd11639" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Data isIndexed="false" availableRowCount="2" contentKey="2FPLFHBGVGACAOCDPSFFAZ7SUDNTJCJ3" size="1315" format="JSONX" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[{
+  "version" : "1",
+  "resultName" : "dd11639",
+  "rowCount" : 2,
+  "availableRowCount" : 2,
+  "data" : [ [ "مجهول", 238.0 ], [ "معلوم", 762.0 ] ],
+  "columns" : [ {
+    "name" : "bi11648",
+    "label" : "التصنيف",
+    "type" : "string"
+  }, {
+    "name" : "bi11649",
+    "label" : "Frequency",
+    "type" : "number",
+    "usage" : "quantitative",
+    "aggregation" : "totalCount",
+    "format" : {
+      "name" : "COMMA",
+      "width" : 12,
+      "precision" : 0,
+      "formatString" : "COMMA12."
+    }
+  } ],
+  "parameters" : [ {
+    "name" : "pr1399",
+    "label" : "التصنيف Parameter",
+    "dataType" : "string",
+    "value" : ""
+  }, {
+    "name" : "pr1398",
+    "label" : "مركز الشرطة Parameter",
+    "dataType" : "string",
+    "value" : ""
+  }, {
+    "name" : "pr1397",
+    "label" : "تاريخ البلاغ Parameter start",
+    "dataType" : "date",
+    "value" : "August 1, 2023",
+    "format" : {
+      "name" : "DATE",
+      "width" : 9,
+      "precision" : 0,
+      "formatString" : "DATE9"
+    }
+  }, {
+    "name" : "pr1853",
+    "label" : "تاريخ البلاغ Parameter end",
+    "dataType" : "date",
+    "value" : "August 8, 2024",
+    "format" : {
+      "name" : "DATE",
+      "width" : 9,
+      "precision" : 0,
+      "formatString" : "DATE9"
+    }
+  } ]
+}]]></Data>
+		</Result>
+		<Result ref="dd12177" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="DATE9" usage="categorical" label="تاريخ البلاغ" ref="bi12187" varname="bi12187" column="c0"/>
+				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="average" label="فارق الوقت" ref="bi12188" varname="bi12188" column="c1"/>
+				<StringVariable label="يوم الأسبوع" ref="bi12189" varname="bi12189" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="date" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="BXMB7PGKACTOYUSGAVHGP6GMGKX7PIV5" size="5596" format="CSV" rowCount="341" grandTotal="false" dataLayout="minimal" file="dd12177.csv" isIndexed="true" availableRowCount="341"/>
+			<StringTableFile contentKey="3IHVJQAJYXG3JPG4I2OF5BKS7GSVKUO4" size="111" format="CSV" rowCount="7" file="dd12177index.csv"/>
+			<Parameters>
+				<Parameter label="التصنيف Parameter" prompt="pr1399" dataType="string">&apos;&apos;</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter start" prompt="pr1397" dataType="double" format="DATE9">23223.0</Parameter>
+				<Parameter label="تاريخ البلاغ Parameter end" prompt="pr1853" dataType="double" format="DATE9">23596.0</Parameter>
+				<Parameter label="مركز الشرطة Parameter" prompt="pr1398" dataType="string">&apos;&apos;</Parameter>
+			</Parameters>
+		</Result>
+		<Result ref="dd12178" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="false" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2024-12-07T15:00:40.437Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query limit exceeded)</MessageText>
+					<Parameters>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object uses a data item, filter, or rank that references a parameter.</Parameter>
+						<Parameter key="offlineNeedsAdvancedProcessingReason">This object type requires an advanced query.</Parameter>
+						<Parameter key="queryError">The data to support actions could not be retrieved. Query limit exceeded: 5035536 queries required. Query limit = 20000.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<DataFile contentKey="5BLCSNBVD4L3MUO7YJMJRXB7XGQY63RX" size="17644" format="JSONX" rowCount="341" grandTotal="false" dataLayout="minimal" file="dd12178.jsonx" isIndexed="false" availableRowCount="341"/>
+		</Result>
+	</Results>
+	<DataDefinitions>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2764">
+			<BusinessItems>
+				<RelationalDataItem name="bi2763" base="bi287"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="relational" name="dd2765">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2763"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi2763" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="dropdown" maxRowsBehavior="truncate" name="dd2766"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2770">
+			<BusinessItems>
+				<RelationalDataItem name="bi2769" base="bi280"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="relational" name="dd2771">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2769"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi2769" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd2772"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2777">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi2775" base="bi1319" usage="quantitative" aggregation="min"/>
+				<RelationalDataItem binOption="formatBin" name="bi2776" base="bi1319" usage="quantitative" aggregation="max"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="relational" name="dd2778">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2775"/>
+							<BusinessItem ref="bi2776"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd2779"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2790">
+			<BusinessItems>
+				<RelationalDataItem name="bi2785" base="bi1161"/>
+				<RelationalDataItem name="bi2786" base="bi1159"/>
+				<RelationalDataItem name="bi2791" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi2787">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2792" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi2788">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(التصنيف,&apos;التصنيف Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2793" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi2789">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="relational" name="dd2794">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2785"/>
+							<BusinessItem ref="bi2786"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd2784"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi2787"/>
+					<BusinessItem ref="bi2788"/>
+					<BusinessItem ref="bi2789"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2907">
+			<BusinessItems>
+				<RelationalDataItem name="bi2903" base="bi848"/>
+				<RelationalDataItem name="bi2908" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi2904">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2909" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi2905">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(التصنيف,&apos;التصنيف Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2910" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi2906">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="multidimensional" name="dd2911">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column"/>
+						<Axis type="row">
+							<BusinessItem ref="bi2903"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi2903" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="keyValue" maxRowsBehavior="truncate" name="dd2902"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi2904"/>
+					<BusinessItem ref="bi2905"/>
+					<BusinessItem ref="bi2906"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2944">
+			<BusinessItems>
+				<RelationalDataItem name="bi2936" base="bi1359"/>
+				<RelationalDataItem name="bi2937" base="bi1360"/>
+				<RelationalDataItem name="bi2938" base="bi1318"/>
+				<RelationalDataItem name="bi2939" base="bi1373"/>
+				<RelationalDataItem name="bi2940" base="bi1374"/>
+				<RelationalDataItem name="bi2945" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi2941">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2946" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi2942">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(التصنيف,&apos;التصنيف Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2947" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi2943">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="relational" name="dd2948">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2936"/>
+							<BusinessItem ref="bi2937"/>
+							<BusinessItem ref="bi2938"/>
+							<BusinessItem ref="bi2939"/>
+							<BusinessItem ref="bi2940"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd2935"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi2941"/>
+					<BusinessItem ref="bi2942"/>
+					<BusinessItem ref="bi2943"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2978">
+			<BusinessItems>
+				<SyntheticItems name="si2962">
+					<Item purpose="algorithm" name="bi2963"/>
+					<Item purpose="dependentVariableLabel" name="bi2964"/>
+					<Item purpose="contributingIndependentVariables_dataSourceNames" name="bi2965"/>
+					<Item purpose="status" name="bi2966"/>
+					<Item purpose="firstForecastRow" name="bi2967"/>
+					<Item purpose="firstForecastDate" name="bi2968"/>
+					<Item purpose="actualLabel" name="bi2969"/>
+					<Item purpose="modelLabel" name="bi2970"/>
+				</SyntheticItems>
+				<SyntheticItems name="si2959">
+					<Item purpose="whatIfOutputInfo" name="bi2960"/>
+				</SyntheticItems>
+				<SyntheticItems name="si2973">
+					<Item purpose="textSummary" name="bi2974"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi2951" base="bi288"/>
+				<SyntheticItems root="bi2951" name="si2952">
+					<Item purpose="upperConfidence" name="bi2953"/>
+					<Item purpose="lowerConfidence" name="bi2954"/>
+					<Item purpose="baseline" name="bi2955"/>
+					<Item purpose="actual" name="bi2956"/>
+					<Item purpose="forecast" name="bi2957"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi2979" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi2975">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2980" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi2976">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(التصنيف,&apos;التصنيف Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem binOption="formatBin" name="bi2972" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi2977">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="procedural" name="dd2981">
+				<ProceduralQuery type="forecast">
+					<Arguments>
+						<Argument purpose="timeSeries">
+							<ReferenceValue>bi2972</ReferenceValue>
+						</Argument>
+						<ListArgument purpose="dependentVariables">
+							<ArgumentGroup group="dependentVariableGroup">
+								<Argument purpose="dependentVariable">
+									<ReferenceValue>bi2951</ReferenceValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="confidenceInterval">
+							<DoubleValue>0.95</DoubleValue>
+						</Argument>
+						<Argument purpose="horizon">
+							<IntValue>30</IntValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd2958" syntheticItems="si2952"/>
+					<ResultDefinition purpose="dependentVarOutputInfo" name="dd2971" syntheticItems="si2962"/>
+					<ResultDefinition purpose="whatIfOutputInfoGroup" name="dd2961" syntheticItems="si2959"/>
+					<ResultDefinition purpose="textSummary" name="dd2982" syntheticItems="si2973"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi2975"/>
+					<BusinessItem ref="bi2976"/>
+					<BusinessItem ref="bi2977"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd2993">
+			<BusinessItems>
+				<RelationalDataItem name="bi2989" base="bi778"/>
+				<RelationalDataItem name="bi2994" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi2990">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2995" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi2991">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(التصنيف,&apos;التصنيف Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi2996" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi2992">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="multidimensional" name="dd2997">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column"/>
+						<Axis type="row">
+							<BusinessItem ref="bi2989"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="kpi" maxRowsBehavior="truncate" name="dd2988"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi2990"/>
+					<BusinessItem ref="bi2991"/>
+					<BusinessItem ref="bi2992"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd3798">
+			<BusinessItems>
+				<RelationalDataItem name="bi3810" base="bi286"/>
+				<RelationalDataItem name="bi3811" base="bi288"/>
+				<RelationalDataItem name="bi3812" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi3813">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(التصنيف,&apos;التصنيف Parameter&apos;p)
+</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi3885" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi3886">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi4102" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi4103">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)
+</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="procedural" name="dd3799">
+				<ProceduralQuery type="standard">
+					<Arguments>
+						<ListArgument purpose="column">
+							<ReferenceValue>bi3810</ReferenceValue>
+							<ReferenceValue>bi3811</ReferenceValue>
+						</ListArgument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="customContent" maxRowsBehavior="truncate" name="dd3800"/>
+					<ResultDefinition purpose="formatted" maxRowsLookup="customContent" maxRowsBehavior="truncate" format="JSONX" name="dd3801"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi3813"/>
+					<BusinessItem ref="bi3886"/>
+					<BusinessItem ref="bi4103"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd9553">
+			<BusinessItems>
+				<RelationalDataItem name="bi9568" base="bi9029"/>
+				<RelationalDataItem name="bi9569" base="bi1158"/>
+				<RelationalDataItem name="bi14483" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi14484">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(التصنيف, &apos;التصنيف Parameter&apos;p)</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi14558" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi14559">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">
+BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)
+</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi14781" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi14782">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)
+</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="procedural" name="dd9554">
+				<ProceduralQuery type="standard">
+					<Arguments>
+						<ListArgument purpose="column">
+							<ReferenceValue>bi9568</ReferenceValue>
+							<ReferenceValue>bi9569</ReferenceValue>
+						</ListArgument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="customContent" maxRowsBehavior="truncate" name="dd9555"/>
+					<ResultDefinition purpose="formatted" maxRowsLookup="customContent" maxRowsBehavior="truncate" format="JSONX" name="dd9556"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi14484"/>
+					<BusinessItem ref="bi14559"/>
+					<BusinessItem ref="bi14782"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd11636">
+			<BusinessItems>
+				<RelationalDataItem name="bi11648" base="bi280"/>
+				<RelationalDataItem name="bi11649" base="bi288"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi13965">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">
+In(التصنيف,&apos;التصنيف Parameter&apos;p)
+</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi14039" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi14040">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">
+In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)
+</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi14187" base="bi1319"/>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi14188">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">
+BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)
+</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="procedural" name="dd11637">
+				<ProceduralQuery type="standard">
+					<Arguments>
+						<ListArgument purpose="column">
+							<ReferenceValue>bi11648</ReferenceValue>
+							<ReferenceValue>bi11649</ReferenceValue>
+						</ListArgument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="customContent" maxRowsBehavior="truncate" name="dd11638"/>
+					<ResultDefinition purpose="formatted" maxRowsLookup="customContent" maxRowsBehavior="truncate" format="JSONX" name="dd11639"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi13965"/>
+					<BusinessItem ref="bi14040"/>
+					<BusinessItem ref="bi14188"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd12175">
+			<BusinessItems>
+				<RelationalDataItem name="bi12187" base="bi1319"/>
+				<RelationalDataItem name="bi12188" base="bi778"/>
+				<RelationalDataItem name="bi12189" base="bi306"/>
+				<RelationalDataItem name="bi12190" base="bi280"/>
+				<RelationalFilterItem label="التصنيف Filter" name="bi12191">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">
+In(التصنيف,&apos;التصنيف Parameter&apos;p)
+
+</Property>
+					</EditorProperties>
+					<Expression>in(${bi280,binned},#{pr1399})</Expression>
+				</RelationalFilterItem>
+				<RelationalFilterItem label="تاريخ البلاغ Filter" name="bi12265">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">
+BetweenInclusive(&apos;تاريخ البلاغ&apos;n, &apos;تاريخ البلاغ Parameter start&apos;p, &apos;تاريخ البلاغ Parameter end&apos;p) OR Missing(&apos;تاريخ البلاغ&apos;n)
+</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi1319,binned},#{pr1397},#{pr1853}),ismissing(${bi1319,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi12487" base="bi287"/>
+				<RelationalFilterItem label="مركز الشرطة Filter" name="bi12488">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+						<Property key="USER_EDIT_REPRESENTATION">In(&apos;مركز الشرطة&apos;n, &apos;مركز الشرطة Parameter&apos;p)
+</Property>
+					</EditorProperties>
+					<Expression>in(${bi287,binned},#{pr1398})</Expression>
+				</RelationalFilterItem>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="procedural" name="dd12176">
+				<ProceduralQuery type="standard">
+					<Arguments>
+						<ListArgument purpose="column">
+							<ReferenceValue>bi12187</ReferenceValue>
+							<ReferenceValue>bi12188</ReferenceValue>
+							<ReferenceValue>bi12189</ReferenceValue>
+						</ListArgument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="customContent" maxRowsBehavior="truncate" name="dd12177"/>
+					<ResultDefinition purpose="formatted" maxRowsLookup="customContent" maxRowsBehavior="truncate" format="JSONX" name="dd12178"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi12191"/>
+					<BusinessItem ref="bi12265"/>
+					<BusinessItem ref="bi12488"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds270" name="dd14791">
+			<BusinessItems>
+				<RelationalDataItem name="bi14803" base="bi287"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds270" type="procedural" name="dd14792">
+				<ProceduralQuery type="standard">
+					<Arguments>
+						<ListArgument purpose="column">
+							<ReferenceValue>bi14803</ReferenceValue>
+						</ListArgument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="customContent" maxRowsBehavior="truncate" name="dd14793"/>
+					<ResultDefinition purpose="formatted" maxRowsLookup="customContent" maxRowsBehavior="truncate" format="JSONX" name="dd14794"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+	</DataDefinitions>
+	<DataSources>
+		<DataSource label="CRIME_REPORTS_DATASET_FINAL" type="relational" name="ds270">
+			<CasResource server="cas-shared-default" library="CASUSER" table="CRIME_REPORTS_DATASET_FINAL" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi271" xref="accused_age"/>
+				<DataItem name="bi272" xref="accused_custody"/>
+				<DataItem name="bi273" xref="accused_id"/>
+				<DataItem name="bi274" xref="accused_marital_status"/>
+				<DataItem name="bi275" xref="accused_name"/>
+				<DataItem name="bi276" xref="accused_nationality"/>
+				<DataItem name="bi277" xref="accused_passport"/>
+				<DataItem name="bi278" label="حالة المتهم" xref="accused_status"/>
+				<DataItem name="bi279" label="نوع الجريمة" xref="charge_type"/>
+				<DataItem name="bi280" label="التصنيف" xref="classification"/>
+				<DataItem name="bi281" xref="incident_lang"/>
+				<DataItem name="bi282" xref="incident_lat"/>
+				<DataItem name="bi283" xref="incident_datetime"/>
+				<DataItem name="bi284" xref="report_datetime"/>
+				<DataItem name="bi285" label="رقم البلاغ" xref="report_id"/>
+				<DataItem name="bi286" label="حالة البلاغ" xref="report_status"/>
+				<DataItem name="bi287" label="مركز الشرطة" xref="reporting_station"/>
+				<PredefinedDataItem calculation="totalCount" name="bi288" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi289" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi290" label="geo_data" xref="report_id" usage="categorical">
+					<GeoInfo geoType="column" coordinateSpace="WGS84">
+						<Lookup property="latitude" ref="bi282"/>
+						<Lookup property="longitude" ref="bi281"/>
+					</GeoInfo>
+				</DataItem>
+				<CalculatedItem dataType="datetime" name="bi300" label="report_datetime" usage="categorical" format="DATETIME0" aggregation="sum">
+					<Expression>applySASInformat(${bi284,binned},$SASInformat{ANYDTDTM32.})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Parse(old_report_datetime, &apos;ANYDTDTM32&apos;)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="datetime" name="bi301" label="incident_datetime" usage="categorical" format="DATETIME0" aggregation="sum">
+					<Expression>applySASInformat(${bi283,binned},$SASInformat{ANYDTDTM32.})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Parse(old_incident_datetime, &apos;ANYDTDTM32&apos;)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi302" label="week_det" usage="categorical" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(and(le(${bi300,binned},dhms(23600,2,30,0)),gt(${bi300,binned},dhms(23593,1,1,1))),2,cond(and(le(${bi300,binned},dhms(23593,1,1,1)),gt(${bi300,binned},dhms(23586,1,1,1))),1,0))</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF report_datetime &lt;= DateTimeFromDateHMS(&apos;12AUG2024&apos;d, 2, 30, 0) AND report_datetime &gt; DateTimeFromDateHMS(&apos;5AUG2024&apos;d, 1, 1, 1)
+    RETURN (2)
+ELSE IF report_datetime &lt;= DateTimeFromDateHMS(&apos;5AUG2024&apos;d, 1, 1, 1) AND report_datetime &gt; DateTimeFromDateHMS(&apos;29JUL2024&apos;d, 1, 1, 1)
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi303" label="day_num" usage="categorical" format="COMMA12.2" aggregation="sum">
+					<Expression>dow(datepart(${bi300,binned}))</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">DayOfWeek(DatePart(report_datetime))</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<GroupedItem grouping="gr305" dataType="string" label="يوم الأسبوع" name="bi306">
+					<GroupingParameters>
+						<GroupingParameter parameter="bi303" variable="var304"/>
+					</GroupingParameters>
+				</GroupedItem>
+				<Hierarchy name="bi317" label="reporting_station - charge_type">
+					<Level ref="bi287"/>
+					<Level ref="bi279"/>
+				</Hierarchy>
+				<GroupedItem grouping="gr379" dataType="string" label="الاسبوع" name="bi380">
+					<GroupingParameters>
+						<GroupingParameter parameter="bi302" variable="var378"/>
+					</GroupingParameters>
+				</GroupedItem>
+				<Hierarchy name="bi383" label="حالة البلاغ - نوع الجريمة">
+					<Level ref="bi286"/>
+					<Level ref="bi279"/>
+				</Hierarchy>
+				<CalculatedItem dataType="datetime" name="bi417" label="diff" usage="categorical" format="DATETIME0" aggregation="sum">
+					<Expression>minus(${bi300,binned},${bi301,binned})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">report_datetime - incident_datetime</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi545" label="current_week" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(eq(${bi302,binned},2),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF week_det = 2
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi546" label="current_crime" format="COMMA12.2">
+					<Expression>aggregate(sum,group,${bi545,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Sum(ByGroup, current_week)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="double" name="bi549" label="past_week" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(eq(${bi302,binned},1),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF week_det = 1
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi550" label="past_crime" format="COMMA12.2">
+					<Expression>aggregate(sum,group,${bi549,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Sum(ByGroup, past_week)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi555" label="prec" format="COMMA12.2">
+					<Expression>times(div(minus(${bi546,raw},${bi550,raw}),${bi550,raw}),100)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">((current_crime - past_crime)/ past_crime) *100</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="date" name="bi745" label="تاريخ الجريمة" usage="categorical" format="DATE9" aggregation="sum">
+					<Expression>datepart(${bi301,binned})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">DatePart(incident_datetime)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi778" label="فارق الوقت" usage="quantitative" format="COMMA12.2" aggregation="average">
+					<Expression>hour(minus(timepart(${bi300,binned}),timepart(${bi301,binned})))</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Hour(TimePart(report_datetime) - TimePart(incident_datetime))</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi810" label="Q1" format="COMMA12.2">
+					<Expression>9.6</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">9.6
+</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi811" label="Q3" format="COMMA12.2">
+					<Expression>14</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">14
+
+</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi848" label="عدد البلاغات" format="COMMA12.2">
+					<Expression>aggregate(count,group,${bi285,binned})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Count(ByGroup, &apos;رقم البلاغ&apos;n)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1141" label="num_station" format="COMMA12.2">
+					<Expression>aggregate(countDistinct,group,${bi287,binned})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Distinct(ByGroup, &apos;مركز الشرطة&apos;n)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="double" name="bi1158" label="count" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>1</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">1</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1159" label="percentage_station" format="COMMA12.2">
+					<Expression>times(div(aggregateInnerTable(max,table(count,groupBy(${bi287,binned}),${bi1158,raw})),aggregate(count,group,${bi1158,raw})),100)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">(AggregateTable(_Max_, Table(_Count_, Fixed(&apos;مركز الشرطة&apos;n), count))/Count(ByGroup, count))*100</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1161" label="max_reps" format="COMMA12.2">
+					<Expression>aggregateInnerTable(max,table(sum,groupBy(${bi287,binned}),${bi1158,raw}))</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">AggregateTable(_Max_, Table(_Sum_, Fixed(&apos;مركز الشرطة&apos;n), count))</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="double" name="bi1239" label="rep_known" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(eq(${bi280,binned},&apos;معلوم&apos;),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF (التصنيف = &apos;معلوم&apos;)
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi1240" label="rep_unknown" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(eq(${bi280,binned},&apos;مجهول&apos;),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF (التصنيف = &apos;مجهول&apos;)
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1241" label="num_known" format="COMMA12.2">
+					<Expression>aggregate(sum,group,${bi1239,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Sum(ByGroup, rep_known)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1242" label="num_unknown" format="COMMA12.2">
+					<Expression>aggregate(sum,group,${bi1240,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Sum(ByGroup, rep_unknown)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1243" label="known_perc" format="COMMA12.2">
+					<Expression>times(div(${bi1241,raw},aggregate(count,group,${bi1158,raw})),100)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">(num_known/Count(ByGroup, count))*100</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1244" label="unknown_perc" format="COMMA12.2">
+					<Expression>times(div(${bi1242,raw},aggregate(count,group,${bi1158,raw})),100)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">(num_unknown/Count(ByGroup, count))*100</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="double" name="bi1282" label="rep_complete" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(eq(${bi286,binned},&apos;مكتمل&apos;),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF (&apos;حالة البلاغ&apos;n = &apos;مكتمل&apos;)
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi1283" label="rep_inprogress" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(eq(${bi286,binned},&apos;قيد التحقيق&apos;),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF (&apos;حالة البلاغ&apos;n = &apos;قيد التحقيق&apos;)
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1284" label="مكتمل" format="COMMA12.2">
+					<Expression>aggregate(sum,group,${bi1282,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Sum(ByGroup, rep_complete)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1286" label="قيد التحقيق" format="COMMA12.2">
+					<Expression>aggregate(sum,group,${bi1283,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Sum(ByGroup, rep_inprogress)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="double" name="bi1315" label="freq_avg_day" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>div(${bi288,raw},285.7)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Frequency / 285.7</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1318" label="avg_time_diff" format="COMMA12.2">
+					<Expression>aggregate(average,group,${bi778,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Avg(ByGroup, &apos;فارق الوقت&apos;n)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="date" name="bi1319" label="تاريخ البلاغ" usage="categorical" format="DATE9" aggregation="sum">
+					<Expression>datepart(${bi300,binned})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">DatePart(report_datetime)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1359" label="max_time_diff" format="COMMA12.2">
+					<Expression>aggregate(max,group,${bi778,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Max(ByGroup, &apos;فارق الوقت&apos;n)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1360" label="min_time_diff" format="COMMA12.2">
+					<Expression>aggregate(min,group,${bi778,raw})</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">Min(ByGroup, &apos;فارق الوقت&apos;n)</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="double" name="bi1362" label="above_avg" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(gt(${bi778,raw},12),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF (&apos;فارق الوقت&apos;n &gt; 12)
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<CalculatedItem dataType="double" name="bi1372" label="below_avg" usage="quantitative" format="COMMA12.2" aggregation="sum">
+					<Expression>cond(lt(${bi778,raw},12),1,0)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">IF (&apos;فارق الوقت&apos;n &lt; 12)
+    RETURN (1)
+ELSE (0)</Property>
+					</EditorProperties>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1373" label="perc_abv_avg" format="COMMA12.2">
+					<Expression>times(div(aggregate(sum,group,${bi1362,raw}),aggregate(count,group,${bi1158,raw})),100)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">(Sum(ByGroup, above_avg)/Count(ByGroup, count))*100</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi1374" label="perc_below_avg" format="COMMA12.2">
+					<Expression>times(div(aggregate(sum,group,${bi1372,raw}),aggregate(count,group,${bi1158,raw})),100)</Expression>
+					<EditorProperties>
+						<Property key="USER_EDIT_REPRESENTATION">(Sum(ByGroup, below_avg)/Count(ByGroup, count))*100</Property>
+					</EditorProperties>
+				</AggregateCalculatedItem>
+				<GroupedItem grouping="gr9028" dataType="string" label="سرعة التبليغ" name="bi9029">
+					<GroupingParameters>
+						<GroupingParameter parameter="bi1362" variable="var9027"/>
+					</GroupingParameters>
+				</GroupedItem>
+			</BusinessItemFolder>
+		</DataSource>
+	</DataSources>
+	<VisualElements>
+		<VisualContainer containerType="precision" name="ve3042" label="Background - main cont (1) (2) (3)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Image scaleType="scale" file="ve2759.jpg" name="ve2759" label="background image (3)" selectionDisabled="true"/>
+		<VisualContainer containerType="precision" name="ve2782" label="banner (3)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Image scaleType="scale" file="ve2761.png" name="ve2761" label="dp logo (3)" selectionDisabled="true"/>
+		<Prompt resultDefinitions="dd2766" name="ve2767" data="dd2764" label="Drop-down list - مركز الشرطة 5" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi2763">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<ComboBox valueVariable="bi2763"/>
+		</Prompt>
+		<Prompt resultDefinitions="dd2772" name="ve2773" data="dd2770" label="Button bar - التصنيف 5" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi2769">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<LinkBar valueVariable="bi2769"/>
+		</Prompt>
+		<Prompt interactOnAggregateData="false" required="true" resultDefinitions="dd2779" name="ve2780" data="dd2777" label="Slider - تاريخ البلاغ 3" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi2775">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<DualSlider minVariable="bi2775" maxVariable="bi2776">
+				<NumericRangeConstraint minInclusive="true" maxInclusive="true"/>
+			</DualSlider>
+		</Prompt>
+		<VisualContainer containerType="precision" name="ve3040" label="graphs cont (3)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="precision" name="ve2854" label="where (3)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Text resultDefinitions="dd2784" name="ve2795" data="dd2790" label="Text 1 (5)" selectionDisabled="true" applyDynamicBrushes="no">
+			<P class="paragraph1"><Span class="span1"><Span class="span2">أعلى عدد من البلاغات لمركز شرطة واحد وصل الى </Span><DynamicSpan variable="bi2785" class="span2"></DynamicSpan><Span class="span2"> بلاغ مما يكون نسبة </Span><DynamicSpan variable="bi2786" class="span2"></DynamicSpan><Span class="span2">% من البلاغات جميعا.</Span></Span></P>
+		</Text>
+		<Image scaleType="scale" file="ve2852.png" name="ve2852" label="Image 1 (4)" selectionDisabled="true"/>
+		<VisualContainer containerType="precision" name="ve2931" label="what (3)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Image scaleType="scale" file="ve2871.png" name="ve2871" label="Image 1 (2) (3)" selectionDisabled="true"/>
+		<Graph graphType="keyValue" supplementalVisuals="ve2912" resultDefinitions="dd2902" name="ve2913" data="dd2907" label="Key value - عدد البلاغات 4" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="previousShowMeasureValue">true</Property>
+				<Property key="previousShowMeasureLabel">true</Property>
+				<Property key="previousShowCategoryValue">true</Property>
+				<Property key="previousShowCategoryLabel">true</Property>
+				<Property key="previousShowAggregation">false</Property>
+			</EditorProperties>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
+                <DefaultValues>
+                    <Value>dd2902.bi2903</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd2902.bi2903</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataPanel cellHeightMin="100px" cellWidthMin="100px" rowGutter="4px" columnGutter="6px" headerLabelDisplay="none" includeMissingClass="true" scroll="true" classVars="CATEGORY">
+        <LayoutPrototypeRegion>
+            <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSELABEL RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
+                <KeyAttrs color="15432019"/>
+                <ResponseLabelAttrs color="15432019"/>
+            </KeyValue>
+        </LayoutPrototypeRegion>
+    </LayoutDataPanel>
+</StatGraph>
+]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd2902" name="ve2912" data="dd2907" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi2903"/>
+			</Columns>
+		</Table>
+		<VisualContainer containerType="precision" name="ve3038" label="when (3)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Image scaleType="scale" file="ve2933.png" name="ve2933" label="Image 1 (2) (1) (2)" selectionDisabled="true"/>
+		<Text resultDefinitions="dd2935" name="ve2949" data="dd2944" label="Text 1 (3) (2)" selectionDisabled="true" applyDynamicBrushes="no">
+			<P class="paragraph1"><Span class="span1"><Span class="span2">أعلى فارق بين توقيت البلاغ وتوقيت الجريمة </Span><DynamicSpan variable="bi2936" class="span2"></DynamicSpan><Span class="span2"> ساعة، وأصغر فارق </Span><DynamicSpan variable="bi2937" class="span2"></DynamicSpan><Span class="span2"> ساعة، بمتوسط </Span><DynamicSpan variable="bi2938" class="span2"></DynamicSpan><Span class="span2">. وجد أن </Span><DynamicSpan variable="bi2939" class="span2"></DynamicSpan><Span class="span2">% من البلاغات لديها فارق أعلى من المتوسط، مع </Span><DynamicSpan variable="bi2940" class="span2"></DynamicSpan><Span class="span2">% من البلاغات بفارق أقل من المتوسط.</Span></Span></P>
+		</Text>
+		<Graph graphType="forecast" supplementalVisuals="ve46230 ve46231 ve46232" resultDefinitions="dd2958 dd2961 dd2971" name="ve2986" data="dd2978" label="Forecasting - تاريخ البلاغ 3" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="autoFrequencyQueryDataItemName">bi2951</Property>
+			</EditorProperties>
+			<Title auto="false"><P class="styleForTitle_paragraph17"><Span class="styleForTitle_span13">تنبؤ بعدد البلاغات اليومية للشهر القادم</Span></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd2958.bi2972</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd2958.bi2951</Value>
+                </DefaultValues>
+            </DynVar>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_170" data="dd2958"/>
+            <Entry model="ReferenceLine_1" data="dd2971"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_170" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <ReferenceLine name="ReferenceLine_1" x="dd2971#bi2968" lineAttrs="Reference">
+                <LineAttrs/>
+            </ReferenceLine>
+            <BandPlot name="BandPlot_1" dataTransparency="0.660000026" x="dd2958#bi2972" limitUpper="dd2958#bi2953" limitLower="dd2958#bi2954" fillAttrs="GraphDataStyle1">
+                <FillAttrs/>
+            </BandPlot>
+            <TimeSeriesPlot name="MeasureTimeSeriesPlot_ACTUAL" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" visible="true" primary="false" break="true" fadeType="auto" display="MARKERS" time="TIME" markerAttrs="GraphDataStyle1">
+                <ResponseVars>
+                    <Value>dd2958#bi2956</Value>
+                </ResponseVars>
+                <MarkerAttrs/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot name="MeasureTimeSeriesPlot_MODEL" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" visible="true" primary="false" break="true" fadeType="auto" display="LINE" time="TIME" lineAttrs="GraphDataStyle1" markerAttrs="GraphDataStyle1" vertexLabelAttrs="GraphDataStyle1">
+                <ResponseVars>
+                    <Value>dd2958#bi2951</Value>
+                </ResponseVars>
+                <LineAttrs thickness="4px"/>
+                <MarkerAttrs symbol="CIRCLE"/>
+                <VertexLabelAttrs/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot name="MeasureTimeSeriesPlot_FORECAST" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" visible="false" primary="true" break="true" fadeType="auto" display="LINE" time="TIME" lineAttrs="GraphDataStyle1" markerAttrs="GraphDataStyle1" vertexLabelAttrs="GraphDataStyle1">
+                <ResponseVars>
+                    <Value>dd2958#bi2957</Value>
+                </ResponseVars>
+                <LineAttrs thickness="4px"/>
+                <MarkerAttrs symbol="CIRCLE"/>
+                <VertexLabelAttrs/>
+            </TimeSeriesPlot>
+            <XAxisOpts name="categoryAxis" display="LABEL LINE TICKS TICKVALUES">
+                <DiscreteOpts sortOrder="data" tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+                <LineAttrs thickness="2px" color="16777215"/>
+                <LabelAttrs size="14pt" color="16777215"/>
+                <TickValueAttrs size="10pt" color="16777215"/>
+            </XAxisOpts>
+            <YAxisOpts display="LINE TICKS TICKVALUES" label="Frequency" reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+                <LineAttrs color="16777215"/>
+                <TickValueAttrs color="16777215"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="false" visible="off">
+        <AutoLegend>
+            <GraphNames>
+                <Value>MeasureTimeSeriesPlot_MODEL</Value>
+                <Value>MeasureTimeSeriesPlot_ACTUAL</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <DataSymbols>
+        <Value>CIRCLE</Value>
+        <Value>SQUARE</Value>
+        <Value>TRIANGLE</Value>
+        <Value>DIAMOND</Value>
+        <Value>STAR</Value>
+        <Value>TRIANGLEDOWN</Value>
+        <Value>HOMEDOWN</Value>
+    </DataSymbols>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>
+]]>
+		</Graph>
+		<Graph graphType="gauge" supplementalVisuals="ve2998" resultDefinitions="dd2988" name="ve3003" data="dd2993" label="Gauge - فارق الوقت 3" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="customRangeInterval">false</Property>
+			</EditorProperties>
+			<Title auto="false"><P class="styleForTitle_paragraph14"><Span class="styleForTitle_span10">فارق الوقت</Span></P></Title>
+			<Conditions>
+				<Condition ref="rg2999" attrMap="RANGES"/>
+			</Conditions>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="numeric" type="numeric">
+                <DefaultValues>
+                    <Value>dd2988.bi2989</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="TARGET" description="TARGET_VAR" required="false" type="numeric"/>
+            <DynVar name="KPI_GROUP" description="KPI_GROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd2988.bi2989</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DynAttrMaps>
+            <DynRangeAttrMap name="RANGES" required="true">rg2999</DynRangeAttrMap>
+        </DynAttrMaps>
+        <DataNameMap>
+            <Entry model="LayoutDataPanel_10" data="dd2988"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataPanel name="LayoutDataPanel_10" cellHeightMin="100px" cellWidthMin="100px" rowGutter="2px" columnGutter="3px" headerBorder="false" headerLabelDisplay="value" includeMissingClass="true" scroll="true" classVars="KPI_GROUP">
+        <LayoutPrototypeRegion>
+            <Gauge name="Gauge" tipListPolicy="replace" _stmt="gauge" compactLabelFormats="true" gaugeShape="dial" gaugeStyle="speedometer" display="VALUELABEL RANGELABELS" valueLabelFormat="COMMA12.2" extractScale="true" tip="TIP" value="RESPONSE" target="TARGET" boundsAttrMap="RANGES">
+                <CompactLabelFormatOpts precisionType="number" precision="3"/>
+                <RangeLabelAttrs color="16777215"/>
+                <ValueLabelAttrs color="16777215"/>
+            </Gauge>
+        </LayoutPrototypeRegion>
+    </LayoutDataPanel>
+</StatGraph>
+]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd2988" name="ve2998" data="dd2993" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi2989"/>
+			</Columns>
+		</Table>
+		<WebContent url="https://sararaya.github.io/dp3D/index.html" webContentType="webDataContent" supplementalVisuals="ve3809" resultDefinitions="dd3800 dd3801" name="ve3797" data="dd3798" label="Data-driven content - حالة البلاغ 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi3810">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</WebContent>
+		<Table columnSizing="autoFill" resultDefinitions="dd3800" name="ve3809" data="dd3798" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3810"/>
+				<Column variable="bi3811"/>
+			</Columns>
+		</Table>
+		<WebContent url="https://sararaya.github.io/dp3D/donut.html" webContentType="webDataContent" supplementalVisuals="ve9564" resultDefinitions="dd9555 dd9556" name="ve9552" data="dd9553" label="Data-driven content - سرعة التبليغ 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi9568">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</WebContent>
+		<Table columnSizing="autoFill" resultDefinitions="dd9555" name="ve9564" data="dd9553" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi9568"/>
+				<Column variable="bi9569"/>
+			</Columns>
+		</Table>
+		<WebContent url="https://raedaldweik.github.io/DP_3D/bar.html" webContentType="webDataContent" supplementalVisuals="ve11647" resultDefinitions="dd11638 dd11639" name="ve11635" data="dd11636" label="Data-driven content - التصنيف 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi11648">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</WebContent>
+		<Table columnSizing="autoFill" resultDefinitions="dd11638" name="ve11647" data="dd11636" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi11648"/>
+				<Column variable="bi11649"/>
+			</Columns>
+		</Table>
+		<WebContent url="https://raedaldweik.github.io/DP_3D/line.html" webContentType="webDataContent" supplementalVisuals="ve12186" resultDefinitions="dd12177 dd12178" name="ve12174" data="dd12175" label="Data-driven content - تاريخ البلاغ 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi12187 bi12189">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</WebContent>
+		<Table columnSizing="autoFill" resultDefinitions="dd12177" name="ve12186" data="dd12175" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi12187"/>
+				<Column variable="bi12188"/>
+				<Column variable="bi12189"/>
+			</Columns>
+		</Table>
+		<WebContent url="http://localhost:8100/mapbox.html" webContentType="webDataContent" supplementalVisuals="ve14802" resultDefinitions="dd14793 dd14794" name="ve14790" data="dd14791" label="Data-driven content - مركز الشرطة 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi14803">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</WebContent>
+		<Table columnSizing="autoFill" resultDefinitions="dd14793" name="ve14802" data="dd14791" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi14803"/>
+			</Columns>
+		</Table>
+		<VisualContainer containerType="precision" name="ve35233" label="Background - main cont (1) (2) (3) (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="precision" name="ve35231" label="graphs cont (3) (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="precision" name="ve35064" label="where (3) (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isPrecision">true</Property>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<WebContent url="https://raedaldweik.github.io/DP_Chatbot/index.html" name="ve36452" label="Web content 1" selectionDisabled="true"/>
+		<Table columnSizing="autoFill" resultDefinitions="dd2958" name="ve46230" data="dd2978" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi2972"/>
+				<Column variable="bi2951"/>
+				<Column variable="bi2956"/>
+				<Column variable="bi2954"/>
+				<Column variable="bi2953"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd2971" name="ve46231" data="dd2978" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi2964"/>
+				<Column variable="bi2963"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd2982" name="ve46232" data="dd2978" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi2974"/>
+			</Columns>
+		</Table>
+	</VisualElements>
+	<PromptDefinitions>
+		<PromptDefinition label="تاريخ البلاغ Parameter start" isParameter="true" format="DATE9" dataType="date" multiValued="false" name="pr1397">
+			<CurrentValueSource visualElement="ve2780" variable="bi2775" resultDefinition="dd2779" rangeProperty="min"/>
+		</PromptDefinition>
+		<PromptDefinition label="مركز الشرطة Parameter" isParameter="true" dataType="string" multiValued="false" name="pr1398">
+			<CurrentValueSource visualElement="ve2767" variable="bi2763" resultDefinition="dd2766"/>
+		</PromptDefinition>
+		<PromptDefinition label="التصنيف Parameter" isParameter="true" dataType="string" multiValued="false" name="pr1399">
+			<CurrentValueSource visualElement="ve2773" variable="bi2769" resultDefinition="dd2772"/>
+		</PromptDefinition>
+		<PromptDefinition label="تاريخ البلاغ Parameter end" isParameter="true" format="DATE9" dataType="date" multiValued="false" name="pr1853">
+			<CurrentValueSource visualElement="ve2780" variable="bi2775" resultDefinition="dd2779" rangeProperty="max"/>
+		</PromptDefinition>
+		<PromptDefinition label="التصنيف Parameter 1" isParameter="true" dataType="string" multiValued="false" name="pr3787"/>
+	</PromptDefinitions>
+	<View>
+		<Header>
+			<MediaContainer target="mt2">
+				<ResponsiveLayout orientation="horizontal" overflow="fit">
+					<Weights mediaTarget="mt5" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt4" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt3" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+				</ResponsiveLayout>
+			</MediaContainer>
+		</Header>
+		<Section name="vi3044" label="Overview">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve3042" name="vi3043">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="fit">
+							<Weights mediaTarget="mt5" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt4" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt3" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+						</ResponsiveLayout>
+						<Visual ref="ve2759" name="vi2760">
+							<ResponsiveConstraint zIndex="1">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="180%" flexibility="shrinkable"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi3043" offset="10%"/>
+								<HorizontalConstraint anchor="vi3043" offset="0%"/>
+							</ResponsiveConstraint>
+						</Visual>
+						<Container ref="ve2782" name="vi2783">
+							<ResponsiveConstraint zIndex="3">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="11%" flexibility="shrinkable"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi3043" offset="0%"/>
+								<HorizontalConstraint anchor="vi3043" offset="0%"/>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="fit">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve2761" name="vi2762">
+								<ResponsiveConstraint zIndex="1">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="15.22%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="110%" flexibility="shrinkable"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi2783" offset="3%"/>
+									<HorizontalConstraint anchor="vi2783" offset="84%"/>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve2767" name="vi2768">
+								<ResponsiveConstraint zIndex="2">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi2783" offset="20%"/>
+									<HorizontalConstraint anchor="vi2783" offset="24%"/>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve2773" name="vi2774">
+								<ResponsiveConstraint zIndex="3">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi2783" offset="20%"/>
+									<HorizontalConstraint anchor="vi2783" offset="43%"/>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve2780" name="vi2781">
+								<ResponsiveConstraint zIndex="4">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="25%" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi2783" offset="0%"/>
+									<HorizontalConstraint anchor="vi2783" offset="0%"/>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+						<Container ref="ve3040" name="vi3041">
+							<ResponsiveConstraint zIndex="5">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="180%" flexibility="shrinkable"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi3043" offset="10%"/>
+								<HorizontalConstraint anchor="vi3043" offset="0%"/>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="fit">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Container ref="ve2854" name="vi2855">
+								<ResponsiveConstraint zIndex="1">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="69%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="30%" flexibility="shrinkable"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi3041" offset="0.5%"/>
+									<HorizontalConstraint anchor="vi3041" offset="0%"/>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="fit">
+									<Weights mediaTarget="mt5" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt4" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt3" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+								</ResponsiveLayout>
+								<Visual ref="ve2795" name="vi2796">
+									<ResponsiveConstraint zIndex="1">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="13%" flexibility="fixed"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2855" offset="85%"/>
+										<HorizontalConstraint anchor="vi2855" offset="0%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve2852" name="vi2853">
+									<ResponsiveConstraint zIndex="2">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="30%" flexibility="shrinkable"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="19%" flexibility="shrinkable"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2855" offset="0%"/>
+										<HorizontalConstraint anchor="vi2855" offset="70%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve14790" name="vi14789">
+									<ResponsiveConstraint zIndex="3">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="70%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2855" offset="15%"/>
+										<HorizontalConstraint anchor="vi2855" offset="0%"/>
+									</ResponsiveConstraint>
+								</Visual>
+							</Container>
+							<Container ref="ve2931" name="vi2932">
+								<ResponsiveConstraint zIndex="3">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="30%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="30%" flexibility="shrinkable"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi3041" offset="0.5%"/>
+									<HorizontalConstraint anchor="vi3041" offset="69.5%"/>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="fit">
+									<Weights mediaTarget="mt5" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt4" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt3" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+								</ResponsiveLayout>
+								<Visual ref="ve2871" name="vi2872">
+									<ResponsiveConstraint zIndex="3">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="70%" flexibility="shrinkable"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="20%" flexibility="shrinkable"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2932" offset="0%"/>
+										<HorizontalConstraint anchor="vi2932" offset="30%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve2913" name="vi2914">
+									<ResponsiveConstraint zIndex="4">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="50%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="30%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2932" offset="10%"/>
+										<HorizontalConstraint anchor="vi2932" offset="2%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve3797" name="vi3796">
+									<ResponsiveConstraint zIndex="1">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="60%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="60%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2932" offset="44%"/>
+										<HorizontalConstraint anchor="vi2932" offset="0%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve11635" name="vi11634">
+									<ResponsiveConstraint zIndex="2">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="47%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="75%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi2932" offset="11%"/>
+										<HorizontalConstraint anchor="vi2932" offset="57%"/>
+									</ResponsiveConstraint>
+								</Visual>
+							</Container>
+							<Container ref="ve3038" name="vi3039">
+								<ResponsiveConstraint zIndex="2">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="99.5%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="43.34%" flexibility="shrinkable"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi3041" offset="31%"/>
+									<HorizontalConstraint anchor="vi3041" offset="0%"/>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="fit">
+									<Weights mediaTarget="mt5" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt4" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt3" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+								</ResponsiveLayout>
+								<Visual ref="ve2933" name="vi2934">
+									<ResponsiveConstraint zIndex="1">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="25%" flexibility="shrinkable"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="10%" flexibility="shrinkable"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi3039" offset="0%"/>
+										<HorizontalConstraint anchor="vi3039" offset="75%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve2949" name="vi2950">
+									<ResponsiveConstraint zIndex="2">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="101%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="8%" flexibility="fixed"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi3039" offset="52%"/>
+										<HorizontalConstraint anchor="vi3039" offset="0%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve2986" name="vi2987">
+									<ResponsiveConstraint zIndex="3">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="40%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi3039" offset="60%"/>
+										<HorizontalConstraint anchor="vi3039" offset="0%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve3003" name="vi3004">
+									<ResponsiveConstraint zIndex="4">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="20%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="45%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi3039" offset="4%"/>
+										<HorizontalConstraint anchor="vi3039" offset="0%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve9552" name="vi9551">
+									<ResponsiveConstraint zIndex="5">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="25%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="40%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi3039" offset="10%"/>
+										<HorizontalConstraint anchor="vi3039" offset="78%"/>
+									</ResponsiveConstraint>
+								</Visual>
+								<Visual ref="ve12174" name="vi12173">
+									<ResponsiveConstraint zIndex="6">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="57%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="45%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi3039" offset="6%"/>
+										<HorizontalConstraint anchor="vi3039" offset="21%"/>
+									</ResponsiveConstraint>
+								</Visual>
+							</Container>
+						</Container>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi35235" label="Gen AI">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve35233" name="vi35234">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="fit">
+							<Weights mediaTarget="mt5" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt4" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt3" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+						</ResponsiveLayout>
+						<Container ref="ve35231" name="vi35232">
+							<ResponsiveConstraint zIndex="5">
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+								</HeightConstraint>
+								<VerticalConstraint anchor="vi35234" offset="0%"/>
+								<HorizontalConstraint anchor="vi35234" offset="0%"/>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="fit">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Container ref="ve35064" name="vi35065">
+								<ResponsiveConstraint zIndex="1">
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="honor" value="100%" flexibility="shrinkable"/>
+									</HeightConstraint>
+									<VerticalConstraint anchor="vi35232" offset="0.5%"/>
+									<HorizontalConstraint anchor="vi35232" offset="0%"/>
+								</ResponsiveConstraint>
+								<ResponsiveLayout orientation="vertical" overflow="fit">
+									<Weights mediaTarget="mt5" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt4" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+									<Weights mediaTarget="mt3" unit="percent">
+										<Weight value="100%"/>
+									</Weights>
+								</ResponsiveLayout>
+								<Visual ref="ve36452" name="vi36451">
+									<ResponsiveConstraint zIndex="1">
+										<WidthConstraint>
+											<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="flexible"/>
+										</WidthConstraint>
+										<HeightConstraint>
+											<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="flexible"/>
+										</HeightConstraint>
+										<VerticalConstraint anchor="vi35065" offset="0%"/>
+										<HorizontalConstraint anchor="vi35065" offset="0%"/>
+									</ResponsiveConstraint>
+								</Visual>
+							</Container>
+						</Container>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi45018" label="Page 3">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Body>
+		</Section>
+	</View>
+	<Interactions>
+		<Interaction name="ia16235" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve2767" variable="bi2763"/>
+			<InteractionElementReference purpose="target" ref="ve14790" variable="bi14803"/>
+		</Interaction>
+		<Interaction name="ia46233" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve2780"/>
+			<InteractionElementReference purpose="target" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46234" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve2767"/>
+			<InteractionElementReference purpose="target" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46235" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve2773"/>
+			<InteractionElementReference purpose="target" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46236" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve2780"/>
+			<InteractionElementReference purpose="target" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46237" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve2795" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46238" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve2795" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46239" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve2795" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46240" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve2795" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46241" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve2913" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46242" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve2913" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46243" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve2913" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46244" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve2913" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46245" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve2949" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46246" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve2949" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46247" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve2949" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46248" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve2949" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46249" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve2986" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46250" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve2986" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46251" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve2986" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46252" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve2986" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46253" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve3003" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46254" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve3003" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46255" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve3003" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46256" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve3003" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46257" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve3797" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46258" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve3797" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46259" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve3797" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46260" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve3797" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46261" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve9552" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46262" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve9552" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46263" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve9552" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46264" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve9552" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46265" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve11635" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46266" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve11635" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46267" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve11635" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46268" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve11635" variable="pr1853"/>
+		</Interaction>
+		<Interaction name="ia46269" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1397"/>
+			<InteractionElementReference purpose="target" ref="ve12174" variable="pr1397"/>
+		</Interaction>
+		<Interaction name="ia46270" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1398"/>
+			<InteractionElementReference purpose="target" ref="ve12174" variable="pr1398"/>
+		</Interaction>
+		<Interaction name="ia46271" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1399"/>
+			<InteractionElementReference purpose="target" ref="ve12174" variable="pr1399"/>
+		</Interaction>
+		<Interaction name="ia46272" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" variable="pr1853"/>
+			<InteractionElementReference purpose="target" ref="ve12174" variable="pr1853"/>
+		</Interaction>
+	</Interactions>
+	<Conditions>
+		<Range scope="local" name="rg2999">
+			<RangeAttrMap>
+				<AttrRange minValue="4.61" maxValue="9.61" maxExclude="true" minExclude="false" rangeColor="#BE223A" name="cc3000"/>
+				<AttrRange minValue="9.61" maxValue="13.61" maxExclude="true" minExclude="false" rangeColor="#FAB545" name="cc3001"/>
+				<AttrRange minValue="13.61" maxValue="18.47" maxExclude="false" minExclude="false" rangeColor="#1C9B99" name="cc3002"/>
+			</RangeAttrMap>
+		</Range>
+	</Conditions>
+	<MediaSchemes>
+		<MediaScheme name="ms1">
+			<BaseStylesheetResource file="basems1.css" theme="T89480341253740dab9f26bab3d243026"/>
+			<StylesheetFile file="ms1.css"/>
+		</MediaScheme>
+	</MediaSchemes>
+	<MediaTargets>
+		<MediaTarget windowSize="default" scheme="ms1" name="mt2"/>
+		<MediaTarget windowSize="small" scheme="ms1" name="mt3"/>
+		<MediaTarget windowSize="medium" scheme="ms1" name="mt4"/>
+		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
+	</MediaTargets>
+	<Properties>
+		<Property key="displayDataSource">ds270</Property>
+		<Property key="originalCopy">Dubai Police Demo</Property>
+		<Property key="ReportPackagesServiceVersion">Viya4 2024.10</Property>
+		<Property key="ReportDataServiceVersion">Viya4 2024.10</Property>
+	</Properties>
+	<Groupings>
+		<Grouping outputType="string" name="gr305">
+			<GroupingVariables>
+				<GroupingVariable variable="var304" type="double"/>
+			</GroupingVariables>
+			<Group>
+				<ValueExpression>&apos;الاحد&apos;</ValueExpression>
+				<TestExpression>in(${var304,binned},1)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;الإثنين&apos;</ValueExpression>
+				<TestExpression>in(${var304,binned},2)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;الثلاثاء&apos;</ValueExpression>
+				<TestExpression>in(${var304,binned},3)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;الأربعاء&apos;</ValueExpression>
+				<TestExpression>in(${var304,binned},4)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;الخميس&apos;</ValueExpression>
+				<TestExpression>in(${var304,binned},5)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;الجمعة&apos;</ValueExpression>
+				<TestExpression>in(${var304,binned},6)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;السبت&apos;</ValueExpression>
+				<TestExpression>in(${var304,binned},7)</TestExpression>
+			</Group>
+			<Other>
+				<ValueExpression>&apos;Other&apos;</ValueExpression>
+			</Other>
+		</Grouping>
+		<Grouping outputType="string" name="gr379">
+			<GroupingVariables>
+				<GroupingVariable variable="var378" type="double"/>
+			</GroupingVariables>
+			<Group>
+				<ValueExpression>&apos;حالي&apos;</ValueExpression>
+				<TestExpression>in(${var378,binned},2)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;ماضي&apos;</ValueExpression>
+				<TestExpression>in(${var378,binned},1)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;لا&apos;</ValueExpression>
+				<TestExpression>in(${var378,binned},0)</TestExpression>
+			</Group>
+			<Other>
+				<ValueExpression>&apos;Other&apos;</ValueExpression>
+			</Other>
+		</Grouping>
+		<Grouping outputType="string" name="gr9028">
+			<GroupingVariables>
+				<GroupingVariable variable="var9027" type="double"/>
+			</GroupingVariables>
+			<Group>
+				<ValueExpression>&apos;فوق المتوسط &apos;</ValueExpression>
+				<TestExpression>between(${var9027,raw},1,1)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;تحت المتوسط&apos;</ValueExpression>
+				<TestExpression>between(${var9027,raw},0,0)</TestExpression>
+			</Group>
+			<Other>
+				<ValueExpression>&apos;Other&apos;</ValueExpression>
+			</Other>
+		</Grouping>
+	</Groupings>
+	<ExportProperties>
+		<Export destination="pdf">
+			<Property key="showCoverPage" value="true"></Property>
+			<Property key="showPageNumbers" value="true"></Property>
+		</Export>
+	</ExportProperties>
+	<History>
+	<Versions>
+		<Version key="4.42.0" lastDate="2024-08-08T00:00:00Z"/>
+		<Version key="4.45.0" lastDate="2024-12-05T00:00:00Z"/>
+	</Versions>
+	<Conversions>
+		<Conversion startVersion="4.42.0" finalVersion="4.45.0" date="2024-12-05T00:00:00Z"/>
+	</Conversions>
+	<Editors>
+		<Editor applicationName="VA">
+			<Revision editorVersion="2024.06" lastDate="2024-08-08T14:44:27.817Z"/>
+			<Revision editorVersion="2024.07" lastDate="2024-08-26T04:05:42.683Z"/>
+			<Revision editorVersion="2024.10" lastDate="2024-12-06T04:05:56.448Z"/>
+		</Editor>
+	</Editors>
+</History>
+	<SASReportState date="2024-12-06T04:00:56Z">
+		<VisualElements>
+			<PromptState element="ve2767"/>
+			<PromptState element="ve2773"/>
+			<PromptState element="ve2780">
+				<Selections>
+					<Selection resultDefinition="dd2779">between(${bi2775,binned},23223,23596)</Selection>
+				</Selections>
+			</PromptState>
+		</VisualElements>
+		<View/>
+	</SASReportState>
+</SASReport>
